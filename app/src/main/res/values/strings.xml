@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mapas de León</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="ab_titulo_Main">Mapas de León</string>
+
+    <string name="titulo_bienvenido">Bienvenido a León (España)</string>
+    <string name="elige_mapa">Selecciona un lugar para ver su ubicacion en el mapa:</string>
+
+    <string name="titulo_catedral">Catedral</string>
+    <string name="snippet_catedral">Catedral de León</string>
+    <string name="titulo_botines">Botines</string>
+    <string name="snippet_botines">Casa Botines</string>
+    <string name="titulo_musac">MUSAC</string>
+    <string name="snippet_musac">Museo de arte comtemporaneo</string>
+    <string name="titulo_museo">Museo de León</string>
+    <string name="snippet_museo">Museo de León</string>
+</resources>

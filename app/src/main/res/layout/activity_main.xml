@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jose.mismapas.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTituloBienvenida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_bienvenido"
+            android:textSize="@dimen/titulo_bienvenida_size"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvEligeMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elige_mapa"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:textSize="@dimen/txtEligeMapa_size"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgCatedral"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:elevation="8dp"
+                android:background="@drawable/myrect"
+                android:src="@drawable/catedral"
+                android:onClick="irMapaCatedral"/>
+
+            <ImageView
+                android:id="@+id/imgBotines"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:elevation="8dp"
+                android:background="@drawable/myrect"
+                android:src="@drawable/botines"
+                android:onClick="irMapaBotines"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgMusac"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:elevation="8dp"
+                android:background="@drawable/myrect"
+                android:src="@drawable/musac"
+                android:onClick="irMapaMusac"
+                />
+
+            <ImageView
+                android:id="@+id/imgMuseo"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:elevation="8dp"
+                android:background="@drawable/myrect"
+                android:src="@drawable/museo"
+                android:onClick="irMapaMuseo"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
